@@ -5,6 +5,7 @@ draft: false
 tags: ["Italian", "Vampire: The Masquerade"]
 categories: ["Shades of V5"]
 author: "Giulia Cursi"
+submitted: true
 ---
 
 *Un’idea di personaggio per Vampiri: La Masquerade.*

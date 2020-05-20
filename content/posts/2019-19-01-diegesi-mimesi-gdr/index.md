@@ -1,10 +1,11 @@
 ---
 title: "Diegesi e mimesi nel gioco di ruolo"
-date: 2019-19-01T12:00:00+02:00
+date: 2019-01-19T12:00:00+02:00
 draft: false
 tags: ["Italian"]
 categories: ["Thoughts"]
 author: "Giulia Cursi"
+submitted: true 
 ---
 
 Mi sono ritrovata a leggere alcuni testi riguardo i tipi di giochi di ruolo dal vivo (o larp) e mi sono imbattuta nell’aggettivo “diegetico”. Mi sono chiesta cosa significasse non tanto la parola stessa, ma associata al contesto e nel chiedere informazioni a degli amici ne è nata una discussione interessante.

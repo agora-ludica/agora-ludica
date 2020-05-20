@@ -2,6 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "it-IT"
 title = "Agorà Ludica"
 
+theme = "zen"
+
 [taxonomies]
    tag = "tags"
    category = "categories"
