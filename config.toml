@@ -1,3 +1,24 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "it-IT"
+title = "Agorà Ludica"
+theme = "diary"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+[params]
+    enableReadingTime=true
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 3
+
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 2
+
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
