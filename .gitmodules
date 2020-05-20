@@ -1,3 +1,7 @@
 [submodule "themes/zen"]
 	path = themes/zen
 	url = https://github.com/frjo/hugo-theme-zen.git
+[submodule "public"]
+	path = public
+	url = https://github.com/agora-ludica/agora-ludica.github.io.git
+	branch = master
