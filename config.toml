@@ -3,7 +3,6 @@ languageCode = "it-IT"
 title = "Agorà Ludica"
 
 theme = "zen"
-publishDir = "docs"
 
 [taxonomies]
    tag = "tags"
