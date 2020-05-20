@@ -1,12 +1,10 @@
 baseURL = "http://example.org/"
 languageCode = "it-IT"
 title = "Agorà Ludica"
-theme = "diary"
+
 [taxonomies]
    tag = "tags"
    category = "categories"
-[params]
-    enableReadingTime=true
 
 [[menu.main]]
 url = "/categories"

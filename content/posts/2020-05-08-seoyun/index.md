@@ -3,7 +3,7 @@ title: "Seoyun"
 date: 2020-05-08T12:00:00+02:00
 draft: false
 tags: ["Italian", "Vampire: The Masquerade"]
-categories: "Shades of V5"
+categories: ["Shades of V5"]
 author: "Giulia Cursi"
 ---
 

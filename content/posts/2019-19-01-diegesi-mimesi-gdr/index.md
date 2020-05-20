@@ -3,7 +3,7 @@ title: "Diegesi e mimesi nel gioco di ruolo"
 date: 2019-19-01T12:00:00+02:00
 draft: false
 tags: ["Italian"]
-categories: "Thoughts"
+categories: ["Thoughts"]
 author: "Giulia Cursi"
 ---
 
