@@ -22,3 +22,8 @@ weight = 2
 url = "/posts"
 name = "Archive"
 weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
