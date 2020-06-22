@@ -1,0 +1,19 @@
+{{ $main_options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" false "includePaths" (slice "assets/lib/typey/stylesheets")) -}}
+{{ if eq hugo.Environment "development" -}}
+  {{ $main_options = merge $main_options (dict "outputStyle" "nested" "enableSourceMap" true) -}}
+{{ end -}}
+{{ $print_options := merge $main_options (dict "targetPath" "css/print.css") -}}
+{{ $main_style := resources.Get "sass/styles.scss" | toCSS $main_options -}}
+{{ $print_style := resources.Get "sass/print.scss" | toCSS $print_options -}}
+{{ if ne hugo.Environment "development" -}}
+  {{ $main_style = $main_style | fingerprint -}}
+  {{ $print_style = $print_style | fingerprint -}}
+{{ end -}}
+<link rel="stylesheet" href="{{ $main_style.RelPermalink }}">
+<link rel="stylesheet" href="{{ $print_style.RelPermalink }}" media="print">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+
+

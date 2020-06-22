@@ -1,0 +1,21 @@
+body, .font-comfortaa {
+    font-family: 'Comfortaa', cursive;
+    line-height: 115%;
+}
+
+code, table {
+    font-family: 'Fira Mono', monospace;
+}
+
+body.nunito, .font-nunito {
+    font-family: 'Nunito', sans-serif;
+    line-height: 115%;
+}
+
+label[for="change-font-nunito"] {
+    font-family: 'Nunito', sans-serif;
+}
+
+label[for="change-font-comfortaa"] {
+    font-family: 'Comfortaa', sans-serif;
+}

@@ -1,12 +1,20 @@
 <header>
-	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-	{{ with .Site.Menus.main }}
-	<nav>
-		<ul>
-			{{ range . }}
-			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-			{{ end }}
-		</ul>
-	</nav>
-	{{ end }}
+  <div class="bg"></div>
+  <a href="{{ .Site.BaseURL }}">
+    <div class="logo">
+      {{ partial "logo.html" . }}
+    </div>
+    <div class="title">
+      <h1>Agorà<br />Ludica</h1>
+    </div>
+  </a>
+  {{ with .Site.Menus.main }}
+  <nav>
+    <ul>
+      {{ range . }}
+      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+  {{ end }}
 </header>

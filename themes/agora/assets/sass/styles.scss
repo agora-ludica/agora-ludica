@@ -1,0 +1,33 @@
+@import 'normalize';
+@import 'typography';
+@import 'colors';
+@import 'forms';
+
+body {
+    background: lighten($primary, 41%);
+    color: $foreground;
+}
+
+header {
+    position: relative;
+
+    .bg {
+        // Skewed header effect
+        background: $primary;
+        transform: skewY(-3deg);
+        transform-origin: top left;
+
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .logo {
+        
+    }
+}
