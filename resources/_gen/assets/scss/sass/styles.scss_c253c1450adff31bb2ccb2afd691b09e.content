@@ -322,7 +322,8 @@ label[for="change-font-comfortaa"] {
 
 header {
   position: relative;
-  padding: 1em 2em 2em; }
+  padding: 1em 2em 2em;
+  margin: 0 0 1em 0; }
   header .bg {
     background: #454ADE;
     transform: skewY(-4deg);
@@ -365,8 +366,40 @@ header {
   header nav {
     display: none; }
 
+article.summary {
+  margin: 0.5em 0;
+  position: relative; }
+  article.summary div {
+    padding: 0 0.5em; }
+  article.summary h1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    font-family: 'Suez One', serif;
+    font-size: 1.5em;
+    padding: 0.5em;
+    background: #454ADE;
+    transform: skewY(-4deg);
+    transform-origin: top left; }
+    article.summary h1 a:link,
+    article.summary h1 a:visited {
+      color: #F6E8EA;
+      text-decoration: none;
+      font-weight: normal; }
+  article.summary .picture {
+    min-height: 100px;
+    padding: 0; }
+  article.summary img {
+    width: 100%;
+    z-index: 0; }
+
 body {
   background: #f7f7fe;
   color: #272727; }
+
+main {
+  display: flex;
+  flex-direction: column; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -10,6 +10,7 @@ submitted: true
 
 Una riflessione sul ruolo delle trappole in Dungeon World
 
+<!--more-->
 ![L'ammiraglio Ackbar di Star Wars che avvisa che c'è una trappola](itsatrap-2-1280x720.jpg "L'ammiraglio Ackbar di Star Wars che avvisa che c'è una trappola")
 
 

@@ -8,9 +8,9 @@ author: "Giulia Cursi"
 submitted: true
 ---
 
-*Un’idea di personaggio per Vampiri: La Masquerade.*
+Un’idea di personaggio per Vampiri: La Masquerade.
 
-Di Giulia Cursi.
+<!--more-->
 
 ![Una foto di Seuoyun](seoyun-1024x1024.jpg "Una foto di Seyoun")
 

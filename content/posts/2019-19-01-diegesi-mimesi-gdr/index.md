@@ -10,6 +10,8 @@ submitted: true
 
 Mi sono ritrovata a leggere alcuni testi riguardo i tipi di giochi di ruolo dal vivo (o larp) e mi sono imbattuta nell’aggettivo “diegetico”. Mi sono chiesta cosa significasse non tanto la parola stessa, ma associata al contesto e nel chiedere informazioni a degli amici ne è nata una discussione interessante.
 
+<!--more-->
+
 Ho chiesto aiuto a Riccardo Bongiovanni (amministratore della pagina Facebook [L'avventuriero precario](https://www.facebook.com/AvventurieroPrecario/)) per scrivere questo articolo e aiutarmi a fare le riflessioni che vi esporrò sotto.
 
 Non ho la pretesa di scrivere un articolo di stampo accademico. Sono principalmente delle libere riflessioni; sarò curiosa di leggere eventuali commenti e ritrovarmi, poi, magari ad ampliare il discorso con un secondo articolo sul tema.

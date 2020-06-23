@@ -1,13 +1,18 @@
-<article>
+<article class="summary">
 	<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-	<time>{{ .Date.Format "02.01.2006 15:04" }}</time>
-	{{ range .Params.tags }}
-	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+	<div class="picture">
+	{{ with .Resources }}
+		{{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
+			<img src="{{ .Permalink }}"/>
+		{{ end }}
 	{{ end }}
+	</div>
+	<div>
+		Scritto il <time>{{ .Date.Format "02.01.2006" }}</time>
+		da <span>{{ .Params.Author }}</span>
+	</div>
 	<div>
 		{{ .Summary }}
-		{{ if .Truncated }}
-			<a href="{{ .Permalink }}">Read more...</a>
-		{{ end }}
 	</div>
 </article>
+
