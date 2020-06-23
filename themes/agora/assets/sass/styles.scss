@@ -13,4 +13,21 @@ body {
 main {
     display: flex;
     flex-direction: column;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 960px) {
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        article.summary h1 {
+            width: 80%;
+            font-size: 2em;
+            padding: 0.75em;
+            margin-top: 0;
+        }
+    }
 }
