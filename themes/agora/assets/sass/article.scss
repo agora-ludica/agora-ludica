@@ -1,5 +1,5 @@
 article {
-    p, h1, h2, h3 {
+    p, h2, h3 {
         padding: 0 2%;
     }
 
@@ -15,11 +15,21 @@ article {
     }
 
     h1 {
+        width: 100%;
+        z-index: 1;
         font-family: 'Suez One', serif;
         font-size: 1.5em;
         line-height: 100%;
+        background: $primary;
+        color: $background;
+        text-decoration: none;
         font-weight: normal;
-        color: $primary;
+        padding: 0.5em;
+        margin: 0;
+        // Skew
+        transform: skewY(-4deg);
+        transform-origin: top left;
+        transition: ease-out 0.3s;
     }
 
     h2, h3 {
@@ -29,5 +39,21 @@ article {
     img {
         width: 108%;
         margin: 0 -1em;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    article {
+        max-width: 640px;
+        margin: 0 auto;
+
+        p, h2, h3 {
+            padding: 0;
+        }
+
+        img {
+            width: 100%;
+            margin: 0
+        }
     }
 }
