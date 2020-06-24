@@ -336,7 +336,7 @@ header {
     width: 100%;
     height: 100%;
     z-index: -1;
-    box-shadow: 0px 2px 0px 2px #F6E8EA, 0px 4px 0px 4px #454ADE; }
+    box-shadow: 0px 2px 0px 2px #f7f7fe, 0px 4px 0px 4px #454ADE; }
   header a {
     display: flex;
     align-items: flex-end;
@@ -345,20 +345,20 @@ header {
     height: 100px; }
   header .logo rect {
     fill: #8D3AF3;
-    stroke: #F6E8EA;
+    stroke: #f7f7fe;
     stroke-width: 0.14em; }
   header .logo ellipse {
     fill: #454ADE;
-    stroke: #F6E8EA;
+    stroke: #f7f7fe;
     stroke-width: 0.14em; }
   header .logo path {
     fill: #8D3AF3;
-    stroke: #F6E8EA;
+    stroke: #f7f7fe;
     stroke-width: 0.14em; }
   header .title h1 {
     margin: 0 0.3em;
     color: #8D3AF3;
-    -webkit-text-stroke: 0.04em #F6E8EA;
+    -webkit-text-stroke: 0.04em #f7f7fe;
     font-family: 'Suez One', serif;
     font-size: 3em;
     display: flex;
@@ -395,7 +395,7 @@ header {
       font-size: 1.5em;
       line-height: 100%;
       background: #454ADE;
-      color: #F6E8EA;
+      color: #f7f7fe;
       text-decoration: none;
       font-weight: normal;
       padding: 0.5em;
@@ -437,6 +437,32 @@ header {
         margin-top: 0; }
   .permalink:hover article.summary {
     border: 3px solid #8D3AF3; } }
+
+article p, article h1, article h2, article h3 {
+  padding: 0 2%; }
+
+article p:first {
+  font-style: italic; }
+
+article .info {
+  font-style: italic;
+  font-size: smaller;
+  text-align: right;
+  padding: 0 2%; }
+
+article h1 {
+  font-family: 'Suez One', serif;
+  font-size: 1.5em;
+  line-height: 100%;
+  font-weight: normal;
+  color: #454ADE; }
+
+article h2, article h3 {
+  line-height: 100%; }
+
+article img {
+  width: 108%;
+  margin: 0 -1em; }
 
 body {
   background: #f7f7fe;

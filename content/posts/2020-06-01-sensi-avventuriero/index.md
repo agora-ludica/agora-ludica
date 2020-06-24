@@ -26,7 +26,7 @@ Quinn, che giocava il Ladro, ha detto "Ok, cerco trappole". Giustamente, è un L
 
 Ecco, la trappola non c'era, fino a quel momento. Perché non avevo pensato che ci potesse essere. Ma in quel momento ci ho pensato, e ho detto "Perché no? Ci sarà una trappola!"
 
-Se Quinn non avesse detto niente, non avrei pensato a mettere la trappola, e a tutti i fatti non ci sarebbe stata! Bravissima Quinn, hai creato una trappola.
+Se Quinn non avesse detto niente, non avrei pensato a mettere la trappola, e a tutti i fatti non ci sarebbe stata! Complimenti Quinn, hai creato una trappola.
 
 ## Ok, e quindi?
 

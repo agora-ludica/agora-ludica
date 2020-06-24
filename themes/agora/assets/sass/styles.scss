@@ -4,9 +4,10 @@
 
 @import 'header';
 @import 'list';
+@import 'article';
 
 body {
-    background: lighten($primary, 41%);
+    background: $background;
     color: $foreground;
 }
 
