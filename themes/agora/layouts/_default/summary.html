@@ -1,19 +1,20 @@
-<article class="summary">
-	<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-	<div class="picture">
-		{{ $img := .Resources.GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
-		{{ if $img }}
-			<img src="{{ $img.Permalink }}"/>
-		{{ else }}
-			<img src="/imgs/missing-image.png"/>
-		{{ end }}
-	</div>
-	<div>
-		Scritto il <time>{{ .Date.Format "02.01.2006" }}</time>
-		da <span>{{ .Params.Author }}</span>
-	</div>
-	<div>
-		{{ .Summary }}
-	</div>
-</article>
-
+<a href="{{ .Permalink }}" class="permalink">
+	<article class="summary">
+		<h1>{{ .Title }}</h1>
+		<div class="picture">
+			{{ $img := .Resources.GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
+			{{ if $img }}
+				<img src="{{ $img.Permalink }}"/>
+			{{ else }}
+				<img src="/imgs/missing-image.png"/>
+			{{ end }}
+		</div>
+		<div class="info">
+			Scritto il <time>{{ .Date.Format "02.01.2006" }}</time>
+			da <span>{{ .Params.Author }}</span>
+		</div>
+		<div class="text">
+			{{ .Summary }}
+		</div>
+	</article>
+</a>

@@ -17,17 +17,10 @@ main {
     margin: 0 auto;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 640px) {
     main {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-
-        article.summary h1 {
-            width: 80%;
-            font-size: 2em;
-            padding: 0.75em;
-            margin-top: 0;
-        }
     }
 }
